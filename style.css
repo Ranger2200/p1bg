@@ -10,7 +10,7 @@
   height: 50px;
   background-color: rgb(0, 225, 255);
   position: relative;
-  top: 150px; game height - character height (200 - 50)
+  top: 150px; 
 }
 
 @keyframes jump{
@@ -29,11 +29,11 @@
   height: 20px;
   background-color: blue;
   position: relative;
-  top: 130px; game height - character height - block height (200 - 50 - 20)
-  left: 480px; game width - block width (500 - 20)
+  top: 130px; 
+  left: 480px; 
   animation: block 1s infinite linear;
 
   @keyframes block{
     0%{left: 500px} 
     100%{left: -20px}
-}
+}}
